@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapGallery | Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SnapGallery</h1>
+        <p>Capture Moments, Explore Beauty</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to SnapGallery</h2>
+        <p>Discover beautiful photographs from around the world.</p>
+        <a href="#gallery" class="explore-btn">Explore Gallery</a>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Photo Gallery</h2>
+
+        <div class="filters">
+            <button onclick="filterPhotos('all')">All</button>
+            <button onclick="filterPhotos('nature')">Nature</button>
+            <button onclick="filterPhotos('travel')">Travel</button>
+            <button onclick="filterPhotos('food')">Food</button>
+            <button onclick="filterPhotos('animals')">Animals</button>
+        </div>
+
+        <div class="gallery">
+            <div class="photo nature">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600" alt="Beautiful lake">
+                <p>Beautiful Nature</p>
+            </div>
+
+            <div class="photo travel">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Travel landscape">
+                <p>Travel Memories</p>
+            </div>
+
+            <div class="photo food">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600" alt="Healthy food">
+                <p>Delicious Food</p>
+            </div>
+
+            <div class="photo animals">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600" alt="Cute dog">
+                <p>Lovely Animals</p>
+            </div>
+
+            <div class="photo nature">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" alt="Green forest">
+                <p>Green Forest</p>
+            </div>
+
+            <div class="photo travel">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600" alt="Mountain">
+                <p>Mountain View</p>
+            </div>
+
+            <div class="photo food">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600" alt="Fresh salad">
+                <p>Fresh Salad</p>
+            </div>
+
+            <div class="photo animals">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=600" alt="Golden dog">
+                <p>Happy Puppy</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About SnapGallery</h2>
+        <p>SnapGallery is a simple and user-friendly platform
+        where people can explore beautiful photographs in
+        different categories. Our goal is to make photo browsing
+        enjoyable and easy.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 SnapGallery | All Rights Reserved</p>
+        <p>Created as a College Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
